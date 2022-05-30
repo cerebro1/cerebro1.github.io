@@ -21,7 +21,7 @@ very soon understood my priorities and took my career on back seat because it wa
 the new mom to drive. Well the ride has been smooth so far with God's grace. I have been able
 to live motherhood to the fullest. I also freelanced as and when possible to keep the balance.
 
-Motherhood should be prioritised and enjoyed. It is something that may not happen again and again.
+Motherhood should be prioritised and enjoyed. To be a mother to a new born is like living childhood again.
 The feeling to provide training to a new born teaches you to be a better manager. I can for sure say
 that my **patience** level has exponentially increased. I learned better ways to communicate because
 my trainee understood only the language of love and affection. I could **plan** things better.
