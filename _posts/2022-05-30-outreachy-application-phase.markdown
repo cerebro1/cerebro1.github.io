@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Application Phase Journey of Outreachy!"
+title:  "Welcome to Application Phase Journey of Outreachy May 2022!"
 date:   2022-05-30 12:50:00 +0530
 categories: jekyll update
 ---
-`TO SUCCEED IN YOUR MISSION, YOU MUST HAVE SINGLE MINDED DEVOTION TO YOUR GOAL`
-`                                                            - APJ ABDUL KALAM`
+`TO SUCCEED IN YOUR MISSION, YOU MUST HAVE SINGLE MINDED DEVOTION TO YOUR GOAL
+                                                             - APJ ABDUL KALAM`
 
 This does not come easy when one has a struggling career.
 To be treated differently at various occasions in life,

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am Sonali Srivastav.
+Hi, I am Sonali Srivastava.
 
 It is the need for inner harmony that made me a **wife**, a **mother** and a **family person**.
 
