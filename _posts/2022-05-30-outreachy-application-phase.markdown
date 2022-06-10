@@ -23,12 +23,37 @@ Certain questions that crossed my mind :
 
 - And many more.....
 
-**Only way to find out : "Read the Application Guide and Fill the application form"**
+**Only way to find out : "Read the Application Guide of Outreachy and Fill the application form"**
+
+## What is Outreachy ?
+
+- Opportunity to know and contribute to FOSS(Free and Open Source Software)
+
+- Chance to comeback after career break
+
+- Not a mandatory requirement to know something in deep in the beginning itself.
+
+- Paid Paid Paid ( An Indian who has watched JabWeMet can understand my sentiments here... Haha )
+
+- Vast variety of projects open with all sorts of requirement starting from backend coding, 
+testing, documentation, ui/ux dev and many more. 
+
+
+### How does it work ?
+
+- Round 1 : Application Phase
+
+- Round 2 : Contribution Phase
+
+- Round 3 : Internship Phase
+
+
+### Application Phase :
 
 The best part of filling the application was going through the [Application Guide](https://www.outreachy.org/docs/applicant/) that Outreachy provided.
-This is a long guide so I made sure I was able to dedicate enough time to read the complete document.
+This is a long guide so dedicate enough time to read the complete document.
 
-How does this help me ?
+# How does this help me ?
 
 - I gained enough confidence to apply.
 
@@ -41,7 +66,10 @@ How does this help me ?
 [Tip that worked for me : Stay honest to yourself and bring the same in application. Things will work out. ]
 
 
-## Got the much awaited mail in my inbox : "Your Outreachy initial application is approved"
+`Got the much awaited mail in my inbox : "Your Outreachy initial application is approved"`
 
-Read Next : Outreachy : Contribution Phase [Coming Soon]
+
+### Contribution Phase :
+
+- Select a project from the [project list]()
 
