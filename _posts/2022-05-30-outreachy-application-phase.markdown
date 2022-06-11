@@ -4,16 +4,24 @@ title:  "Outreachy May 2022 : Introduction"
 date:   2022-05-30 12:50:00 +0530
 categories: jekyll update
 ---
-###TO SUCCEED IN YOUR MISSION, YOU MUST HAVE SINGLE MINDED DEVOTION TO YOUR GOAL
-###                                                            - APJ ABDUL KALAM
+## TO SUCCEED IN YOUR MISSION, YOU MUST HAVE SINGLE MINDED DEVOTION TO YOUR GOAL
+##                                                             - APJ ABDUL KALAM
 
-This does not come easy when one has a struggling career.
+Hi everyone, I am Sonali and this page talks about start
+of my journey with Outreachy. You can know more about me
+and why i applied at Outreachy May 2022 Cohort [here](https://cerebro1.github.io/about/).
+The believe in balance, happiness and inner harmony helped
+me pull it all together and i will always be grateful to
+Outreachy for this opportunity.
+
+To have single minded devotion does not come easy when
+one has a struggling career and filled with self-doubt.
 To be treated differently at various occasions in life,
 I started doubting my capabilities. 
 
 Certain questions that crossed my mind :
 
-- Am I eligible ?
+- Am I eligible as this is the first time i will contribute to open source ?
 
 - What if my application gets rejected ? Can I apply again for the next cycle ?
 
@@ -23,23 +31,27 @@ Certain questions that crossed my mind :
 
 - And many more.....
 
-**Only way to find out : "Read the Application Guide of Outreachy and Fill the application form"**
+**Only way to find out : APPLY**
 
-## What is Outreachy ?
+### So what is Outreachy ?
 
 - Opportunity to know and contribute to FOSS(Free and Open Source Software)
 
-- Chance to comeback after career break
+- Chance to comeback after career break.
 
 - Not a mandatory requirement to know something in deep in the beginning itself.
 
-- Paid Paid Paid ( Anyone who has watched JabWeMet movie can understand my sentiments here... )
+- Paid Paid Paid (Anyone who has watched JabWeMet movie can understand my sentiments here..)
 
 - Vast variety of projects open with all sorts of requirement starting from backend coding, 
 testing, documentation, ui/ux dev and many more. 
 
+- Happens twice a year [ Summer and Winter ].
 
-### How does it work ?
+- Chance to meet the open source community.
+
+
+### And how does it work ?
 
 - Round 1 : Application Phase
 
@@ -48,7 +60,7 @@ testing, documentation, ui/ux dev and many more.
 - Round 3 : Internship Phase
 
 
-### Application Phase :
+## Application Phase :
 
 The best part of filling the application was going through the [Application Guide](https://www.outreachy.org/docs/applicant/) that Outreachy provided.
 This is a long guide so dedicate enough time to read the complete document.
@@ -69,7 +81,7 @@ This is a long guide so dedicate enough time to read the complete document.
 `Got the much awaited mail in my inbox : "Your Outreachy initial application is approved"`
 
 
-### Contribution Phase [Roughly 1 month period] :
+## Contribution Phase [Roughly 1 month duration] :
 
 - Go through project from the [project list](https://www.outreachy.org/outreachy-may-2022-internship-round/)
 
@@ -92,18 +104,24 @@ This is a long guide so dedicate enough time to read the complete document.
 
 - The most important : Stick to the plan.
 
-- systemd : Project Selected
+- systemd : Project Selected.
 
-## what is systemd ?
+# What is systemd ?
 
-- service manager
+- system and service manager for Linux [Big Boss].
 
-- FOSS
+- FOSS.
+
+- Written in C and organized via GitHub.
+
+- Clear and very well documented.
+
+- [CODING STYLE](https://systemd.io/CODING_STYLE/) is one of my favourite doc.
 
 `Got the final selection mail and could not be any happier to see my name [here](https://www.outreachy.org/alums/2022-05/).`
 
 
-### Internship Phase [ 3 months ] :
+## Internship Phase [ 3 months duration ] :
 
 - Introduce yourself via blog.
 
@@ -113,10 +131,14 @@ This is a long guide so dedicate enough time to read the complete document.
 
 - Fill the tax and ban details.
 
-# So far, it has been going good. Outreachy focus in mainly on learning.
+- Get Started on Project.
 
-# It will be good to complete project on time.
+# My Project : Improve Suspend-Then-Hibernate functionality on Linux.
 
-# Thanks Outreachy for such opportunity!
+# So far, it has been going good. My 5 Pull Request have been merged in systemd in Contribution Phase.
 
-# Thanks to my mentor : Luca Boccassi 
+# The feeling to see my name in [systemd v251](https://lists.freedesktop.org/archives/systemd-devel/2022-May/047976.html) open source contributor is amazing.
+ 
+# Outreachy focus in mainly on learning. And help us get acquainted to Remote Work culture.
+
+# Thanks Outreachy for such opportunity! Thanks to my mentor : Luca Boccassi.
