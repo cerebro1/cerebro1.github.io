@@ -4,8 +4,8 @@ title:  "Outreachy May 2022 : Introduction"
 date:   2022-05-30 12:50:00 +0530
 categories: jekyll update
 ---
-## TO SUCCEED IN YOUR MISSION, YOU MUST HAVE SINGLE MINDED DEVOTION TO YOUR GOAL
-##                                                             - APJ ABDUL KALAM
+# TO SUCCEED IN YOUR MISSION, YOU MUST HAVE SINGLE MINDED DEVOTION TO YOUR GOAL
+#                                                             - APJ ABDUL KALAM
 
 Hi everyone, I am Sonali and this page talks about start
 of my journey with Outreachy. You can know more about me
@@ -33,7 +33,7 @@ Certain questions that crossed my mind :
 
 **Only way to find out : APPLY**
 
-### So what is Outreachy ?
+## So what is Outreachy ?
 
 - Opportunity to know and contribute to FOSS(Free and Open Source Software)
 
@@ -51,7 +51,7 @@ testing, documentation, ui/ux dev and many more.
 - Chance to meet the open source community.
 
 
-### And how does it work ?
+## And how does it work ?
 
 - Round 1 : Application Phase
 
@@ -60,7 +60,7 @@ testing, documentation, ui/ux dev and many more.
 - Round 3 : Internship Phase
 
 
-## Application Phase :
+# Application Phase :
 
 The best part of filling the application was going through the [Application Guide](https://www.outreachy.org/docs/applicant/) that Outreachy provided.
 This is a long guide so dedicate enough time to read the complete document.
@@ -81,7 +81,7 @@ This is a long guide so dedicate enough time to read the complete document.
 `Got the much awaited mail in my inbox : "Your Outreachy initial application is approved"`
 
 
-## Contribution Phase [Roughly 1 month duration] :
+# Contribution Phase [Roughly 1 month duration] :
 
 - Go through project from the [project list](https://www.outreachy.org/outreachy-may-2022-internship-round/)
 
@@ -121,7 +121,7 @@ This is a long guide so dedicate enough time to read the complete document.
 `Got the final selection mail and could not be any happier to see my name [here](https://www.outreachy.org/alums/2022-05/).`
 
 
-## Internship Phase [ 3 months duration ] :
+# Internship Phase [ 3 months duration ] :
 
 - Introduce yourself via blog.
 
@@ -133,12 +133,8 @@ This is a long guide so dedicate enough time to read the complete document.
 
 - Get Started on Project.
 
-# My Project : Improve Suspend-Then-Hibernate functionality on Linux.
+- My Project : Improve Suspend-Then-Hibernate functionality on Linux.
 
-# So far, it has been going good. My 5 Pull Request have been merged in systemd in Contribution Phase.
-
-# The feeling to see my name in [systemd v251](https://lists.freedesktop.org/archives/systemd-devel/2022-May/047976.html) open source contributor is amazing.
- 
-# Outreachy focus in mainly on learning. And help us get acquainted to Remote Work culture.
-
-# Thanks Outreachy for such opportunity! Thanks to my mentor : Luca Boccassi.
+**Final Words : So far, it has been going good. My 5 Pull Request have been merged in systemd in Contribution Phase.**
+The feeling to see my name in [systemd v251](https://lists.freedesktop.org/archives/systemd-devel/2022-May/047976.html) open source contributor list is amazing. Outreachy focus in mainly on learning. And help us get acquainted to Remote Work culture.
+**Thanks Outreachy for such opportunity! Thanks to my mentor : Luca Boccassi.**
