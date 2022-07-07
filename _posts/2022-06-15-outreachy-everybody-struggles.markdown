@@ -36,19 +36,19 @@ Well i knew till then it is not easy.
 And it is natural. Whatever you are doing day-in and day-out basis, you will
 be confident in doing that.
 
-##How i started ?
+## How i started ?
 
 * Made a plan to give dedicated 8 hours per day to Outreachy and have a balanced life.
 
-- 3 hours in morning to Outreachy.
-- 15 min workout morning.
-- 30 min meal time.
-- 3 hours during day to Outreachy.
-- 1 hour evening walk.
-- 2 hours play time with baby.
-- 30 min meal time.
-- 3 hours during night to Outreachy.
-- 8 hours of sleep.
+  - 3 hours in morning to Outreachy.
+  - 15 min workout morning.
+  - 30 min meal time.
+  - 3 hours during day to Outreachy.
+  - 1 hour evening walk.
+  - 2 hours play time with baby.
+  - 30 min meal time.
+  - 3 hours during night to Outreachy.
+  - 8 hours of sleep.
 
 * Purposely made plan that had 9 hours to Outreachy so that if anything falls out of plan,
 i will have an hour or two extra to cover.
