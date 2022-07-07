@@ -129,7 +129,7 @@ This is a long guide so dedicate enough time to read the complete document.
 
 - Coordinate with mentor about tasks to be performed.
 
-- Fill the tax and ban details.
+- Fill the tax and bank details.
 
 - Get Started on Project.
 
