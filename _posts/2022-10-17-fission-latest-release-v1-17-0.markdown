@@ -1,7 +1,13 @@
+---
+layout: post
+title:  "V1.17.0 - Security Context Setting for Fission Installation"
+date:   2022-10-17 16:30:00 +0530
+categories: jekyll update
+---
 <p align="center">
   <img src="https://fission.io/images/logo-gh.svg" width="300" />
   <br>
-  <h1 align="center">Fission: Serverless Functions for Kubernetes</h1>
+  <h1 align="center">Fission : Serverless Functions for Kubernetes</h1>
 </p>
 
 <p align="center">
@@ -39,8 +45,6 @@
 </p>
 
 ---
-## Latest Version : v1.17.0
-## Feature Release : Security Context Setting for Fission Installation
 
 Fission is a fast serverless framework for Kubernetes with a focus on
 developer productivity and high performance.
@@ -69,21 +73,21 @@ Let's talk about the latest feature released by Fission which allows to change
 security context.
 
 
-## Why ? [ why to introduce this feature ? ]
+## Why? [why to introduce this feature ?]
 
 Container were running as root user by default. This led to function run as
 root user. In need to operate `fission` without root, user manually updated
 through environment configuration by marking the pod as `runAsNonRoot`,
 `runAsUser` and `runAsGroup`. Since `fission` is all about increasing developer
 productivity, Fission team has added this feature in the default helm chart as
-good security practice.
+good security practice in version v1\.17.
 
 
-## What ? [ what happened before and after release ? ]
+## What? [what happened before and after release ?]
 
 **Before release :**
 
-![before-implementation-con](./screenshots/before-con-set.png)
+![before-implementation-con](/assets/before-con-set.png "before-implementation-con")
 
 `whoami` returns that container is launched with root user as default in pod
 `buildermgr-5988846597-5jbzz`. In Linux environment, `#` denotes system administrator
@@ -92,7 +96,7 @@ which is root login.
 
 **After release :**
 
-![after-implementation-con](./screenshots/after-con-set.png)
+![after-implementation-con](/assets/after-con-set.png)
 
 `whoami` returns `uid 10001` which is user uid for container running as builder
 manager component. After the upgrade, old pod is replaced with new pod. Since
@@ -101,7 +105,7 @@ as a non-root user. In Linux environment, `$` denotes non-root or normal user
 login.
 
 
-## How ? [ How to upgrade to use this feature ? ]
+## How? [How to upgrade to use this feature ?]
 
 Prerequisites :
 
@@ -139,21 +143,21 @@ Recommended security context for builder and function pods :
 
 For each component, Fission maintains a pod. Let's check if all the pods of Fission are `Active`.
 
-![before-pod-set](./screenshots/before-pod-set.png)
+![before-pod-set](/assets/before-pod-set.png)
 
 Let's connect to a pod and check user with which container is running :
 
 ```
-sonalis@cere:~/pyshorturl/docs [main] $ kubectl exec -it controller-5d949b66-bbqbd -n fission -- /bin/sh
-/ # whoami
-root
+    sonalis@cere:~/pyshorturl/docs [main] $ kubectl exec -it controller-5d949b66-bbqbd -n fission -- /bin/sh
+    / # whoami
+    root
 ```
 
 To make the changes, if you have a pre-existing values.yml available, update the same
 or download one from fission-charts using :
 
 ```
-wget https://github.com/fission/fission/blob/main/charts/fission-all/values.yaml?raw=True -O values.yaml
+    wget https://github.com/fission/fission/blob/main/charts/fission-all/values.yaml?raw=True -O values.yaml
 ```
 
 Note : user supplied values.yaml file has priority over parent chart's
@@ -162,7 +166,7 @@ context is set to `false`.
 
 Edit values.yaml :
 
-![values.yaml controller component](./screenshots/values-yaml-before.png)
+![values.yaml controller component](/assets/values-yaml-before.png)
 
 Update the enabled field here as shown below
 
@@ -173,9 +177,9 @@ Update the enabled field here as shown below
 Make the changes for all components : contorller, executor, router, buildermgr,
 kubewatcher and storagesvc. Similarly for builder and function pod.
 
-![values.yaml-builderpod](./screenshots/values-yaml-builderpod-after.png)
+![values.yaml-builderpod](/assets/values-yaml-builderpod-after.png)
 
-![values.yaml-functionpod](./screenshots/values-yaml-runtimepod-after.png)
+![values.yaml-functionpod](/assets/values-yaml-runtimepod-after.png)
 
 
 Fission pods run in a namespace. `namespace` help in providing isolation to the
@@ -183,15 +187,15 @@ pod or set of pods. In order to apply the changes we will need name of the
 namespace in which Fission pods are running. Let's check it's name.
 
 ```
-$ kubectl get namespace
-NAME               STATUS   AGE
-default            Active   29h
-fission            Active   81s
-fission-builder    Active   42s
-fission-function   Active   42s
-kube-node-lease    Active   29h
-kube-public        Active   29h
-kube-system        Active   29h
+    $ kubectl get namespace
+    NAME               STATUS   AGE
+    default            Active   29h
+    fission            Active   81s
+    fission-builder    Active   42s
+    fission-function   Active   42s
+    kube-node-lease    Active   29h
+    kube-public        Active   29h
+    kube-system        Active   29h
 ```
 
 The namespace for Fission is `fission`.
@@ -200,7 +204,7 @@ Let's use helm to re-launch Fission with latest changes. `helm` is a package
 manager for Kubernetes.
 
 ```
-helm upgrade --namespace fission fission fission-charts/fission-all -f values.yaml
+    helm upgrade --namespace fission fission fission-charts/fission-all -f values.yaml
 ```
 
 If you are doing a fresh install of fission, you can make use of `install`
@@ -210,17 +214,17 @@ Above command may take 5-10 seconds to return you success.
 
 Let's check if all the pods of Fission are re-launced successfully :
 
-![after-pod-values](./screenshots/after-values-pod.png)
+![after-pod-values](/assets/after-values-pod.png)
 
 Here we can see that the name of the pods have changed if we compare from our
 previous snapshot. Let us login in one of it and check user logged in.
 
 ```
-sonalis@cere:~/pyshorturl/docs [main] $ kubectl exec -it controller-5b4b9cfcdb-tjtb6 -n fission -- /bin/sh
-/ $ whoami
-whoami: unknown uid 10001
-/ $ date
-Sat Oct 15 16:04:30 UTC 2022
+    sonalis@cere:~/pyshorturl/docs [main] $ kubectl exec -it controller-5b4b9cfcdb-tjtb6 -n fission -- /bin/sh
+    / $ whoami
+    whoami: unknown uid 10001
+    / $ date
+    Sat Oct 15 16:04:30 UTC 2022
 ```
 
 The values.yaml file defines the `uid` that will be used for login as non-root
@@ -239,7 +243,7 @@ using `helm` as shown below.
 Please note : `--set` has priority over user supplied values.yaml file.
 
 ```
-helm upgrade --namespace $FISSION_NAMESPACE fission fission-charts/fission-all --set buildermgr.securityContext.enabled=true
+    helm upgrade --namespace $FISSION_NAMESPACE fission fission-charts/fission-all --set buildermgr.securityContext.enabled=true
 ```
 
 Have queries ?
