@@ -56,11 +56,22 @@ You do not have commit 15 and 16.
 
 Now there are multiple ways to get those changes.
 
-1. `git merge` : I call it the **easiest non-destructive way** if you are new to
-git.
+1. `git merge` : **Easiest non-destructive way** if you are new to
+git. It merges the local changes(your branch) into the remote changes(main
+branch) and creates another commit history record.
 
-2. `git rebase` : **destructive way** if you do not know what it does behind
-the scenes.
+
+                         |->a->b->c->x->y
+                         |          |
+         ->11->12->13->14->15->16->-> 
+                                    ^
+                Merging Main into your branch ( Here x is the new merge commit added )
+
+2. `git rebase` : **Destructive way** if you do not know what it does behind
+the scenes. Golden rule if you are working on a public branch, never rebase. It
+can cause a lot of confusion for other developers working on the same public
+branch. Rebase moves all of the commits/changes in the remote branch onto the
+tip of your branch.
 
 Note : It is always a good practice to keep you branch latest unless you are
 testing something on an old specific version. There can be updated changes in
